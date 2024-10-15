@@ -1,0 +1,29 @@
+.movie {
+  margin-top: 20px;
+  background-color: rgb(241, 71, 23);
+  max-width: 200px;
+  height: fit-content;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 7px 4px 8px rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+.movie p {
+  position: absolute;
+}
+
+.movie img {
+  height: 250px;
+  width: 200px;
+}
+
+.movie:hover {
+  opacity: 0.8;
+  color: black;
+  background-color: transparent;
+  color: whitesmoke;
+}
+/* .movie .title {
+  background-color: rgb(241, 71, 23);
+} */
